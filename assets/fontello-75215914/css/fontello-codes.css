@@ -1,0 +1,21 @@
+
+.icon-right:before { content: '\e800'; } /* '' */
+.icon-user:before { content: '\e801'; } /* '' */
+.icon-mail:before { content: '\e802'; } /* '' */
+.icon-plus:before { content: '\e803'; } /* '' */
+.icon-download:before { content: '\e804'; } /* '' */
+.icon-github-circled-alt2:before { content: '\f056'; } /* '' */
+.icon-instagram:before { content: '\f05d'; } /* '' */
+.icon-github-circled:before { content: '\f09b'; } /* '' */
+.icon-menu:before { content: '\f0c9'; } /* '' */
+.icon-linkedin:before { content: '\f0e1'; } /* '' */
+.icon-mobile:before { content: '\f10b'; } /* '' */
+.icon-quote-left:before { content: '\f10d'; } /* '' */
+.icon-quote-right:before { content: '\f10e'; } /* '' */
+.icon-html5:before { content: '\f13b'; } /* '' */
+.icon-map:before { content: '\f279'; } /* '' */
+.icon-github-squared:before { content: '\f300'; } /* '' */
+.icon-linkedin-squared:before { content: '\f30c'; } /* '' */
+.icon-linkedin-circled:before { content: '\f319'; } /* '' */
+.icon-instagram-2:before { content: '\f31e'; } /* '' */
+.icon-instagram-1:before { content: '\f32d'; } /* '' */

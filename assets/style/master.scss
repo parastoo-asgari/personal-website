@@ -1,0 +1,293 @@
+
+#main{
+    width: 100%;
+    background-color:#0e0c1d;
+    height: auto;
+    user-select:none;
+    cursor: default !important;
+    overflow-x: hidden !important;
+    >.head-part1{
+        background-color: rgb(9, 9, 22);
+        min-height: 100vh;
+        border-bottom: 1px solid rgb(27, 27, 27);
+        >div{
+            >header{
+                background-color: transparent;
+                
+                >nav{
+                    
+                    >ul{
+                        >li{ 
+                            >a{
+                                text-transform: uppercase;
+                            }
+                        }
+                    }
+                }
+            }
+            >.head-buttom{
+                >article{
+                    display: flex;
+                    width: 50% !important;
+                    flex-wrap: wrap;
+                    margin-top: 5%;
+                    margin-left: 2%;
+                    @media screen and (max-width:768px){
+                        width: 100% !important;
+                        
+                        
+                    }
+                    
+                    >h1{
+                        font-size:4rem;
+                        color:white;
+                       
+                        >span{
+                            color:#af2676 ;
+                            text-transform: uppercase;
+                            font-size: 4.3rem;
+                            -webkit-text-stroke-width: 2px;
+                            -webkit-text-stroke-color: var(--px-theme);
+                            -webkit-text-fill-color: transparent;
+                            font-weight: 800;
+                        }
+                    }
+                    >h2{
+                        font-size: 2.5rem;
+                        color: white;
+                    }
+                    >button{
+                        width:25%;
+                        height: 5%;
+                        background-color: #af2676;
+                        font-size: 0.9rem;
+                        color: white;
+                        padding: 2% 5%;
+                        margin-top: 5%;
+                        border: none;
+                        outline: none;
+                        cursor: pointer;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        &:hover{
+                            background-color: #75144d;
+                        }
+                        >i{
+                            margin-left: 4%;
+                           
+                        }
+                    }
+                    >div{
+                        display: flex;
+                        align-items: center;
+                        margin-top: 10%;
+                       
+                        >span{
+                        color: white;
+                        margin-left: 10%;
+                    }
+                    }
+                }
+                >section{
+                    width: 50%;
+                    @media screen and (max-width:768px){
+                        width: 100%;
+                        height: 100vh;
+                        
+                    }
+                   
+                    >figure{
+                        width:70%;
+                        height: 600px;
+                        >img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit:top;
+                        }
+                    }
+
+                }
+            }
+        }
+    
+    }
+// ---------end part1 head-----------------
+
+>.about-part2{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    @media screen and (min-width:1600px){
+        height: auto;
+        padding: 200px 0;
+        
+    }
+    // border-bottom: 1px solid rgb(27, 27, 27);
+    
+    >div{
+        >h2{
+            font-size: 3vw;
+            color:white;
+            font-family:'Sriracha', cursive;
+        }
+        >h3{
+            font-size: 1rem;
+        }
+    }
+>buttom-about{
+    width: 100%;
+    display: flex;
+    margin-top:100px;
+    >figure{
+        width: 50%;
+        
+        
+        
+    }
+    >article{
+        >.box{
+            display: flex;
+            width:70%;
+            height: 150px;
+            
+           &:hover{
+            transform: scale(1,1);
+           }
+            >p{
+                color: white;
+            }
+        }
+    }
+}
+       
+    } 
+    // ----end part2 about-------------
+    >.project-part3{
+        >div{font-family: 'Sriracha', cursive;
+            >.card{
+                background-color:#100e24;
+                font-family: 'Sriracha', cursive;
+               >div{
+                >a{
+                    color: dimgray;
+                    &:hover{
+                        color: #941c62;
+                    }
+                }
+                >img{
+                    height: 150px;
+                    object-fit: cover ;
+                    cursor: pointer;
+                    margin-top: 10px;
+                    border-radius: 20px;
+                    transition:0.6s ;
+                    &:hover{
+                    transform: scale(0.9);
+                  }
+                  }
+               }
+            }
+        
+        
+    }
+  
+
+    }     
+    // ------------end part3 project---------------
+    >.accordion-part4{
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(9, 9, 22);
+       
+        // border-bottom: 1px solid rgb(49, 49, 49);
+        >div{
+            @media screen and (max-width:768px){
+                width: 100%;
+                
+            }
+            >.left-part4{
+                font-family: 'Sriracha', cursive;
+                >h4{
+                    color: white;
+                    
+                    
+                }
+                >h2{
+                    color: white;
+                }
+                >.box-contact{
+                    width: 100%;
+                    height: 100px;
+                    border: 1px solid gray;
+                    
+                    @media screen and (max-width:768px){
+                        width: 100% !important;
+                        height: 100px !important;
+                        
+                    }
+                }
+
+            }
+            >.right-part4{
+                width: 50%;
+                font-family: 'Sriracha', cursive;
+                background-color:#941c62; 
+                @media screen and(max-width:768px){
+                    width: 100% !important;
+                    
+                }
+                >h2{
+                    font-size: 3rem;
+                }
+               
+                >form{
+                    >label{
+                        color:white;
+
+                    }
+                    >input{
+                        background-color: transparent;
+                        width: 100%;
+                        height: 40px;
+                        outline: none;
+                        border: 1px solid rgb(83, 5, 64);
+                        box-shadow: 2px 2px 3px #941c62;
+                        border-radius: 10px;
+                        -webkit-border-radius: 10px;
+                        -moz-border-radius: 10px;
+                        -ms-border-radius: 10px;
+                        -o-border-radius: 10px;
+                        }
+                    >textarea{
+                        background-color: transparent;
+                        border: none;
+                        outline: none;
+                        // border: 1px solid rgb(121, 119, 119);
+                        border-radius: 10px;
+                        -webkit-border-radius: 10px;
+                        -moz-border-radius: 10px;
+                        -ms-border-radius: 10px;
+                        -o-border-radius: 10px;
+                    }
+                    >.btn{
+                        width: 100%;
+                        background-color: #100e24;
+                        color: white;
+                        font-size: 1.3rem;
+                        height: 50px;
+                        border-radius: none;
+                        
+                      
+                       
+                    }
+                }
+            }
+        }
+    }
+    >footer{
+    height: 150px;
+    background-color: #04030f;
+ 
+    }
+}

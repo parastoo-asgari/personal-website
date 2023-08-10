@@ -1,0 +1,205 @@
+#main {
+  width: 100%;
+  background-color: rgb(9, 9, 22);
+  overflow-x: hidden !important;
+  user-select:none;
+    cursor: default !important;
+}
+#main > .head-part1 {
+  background-color: rgb(9, 9, 22);
+  min-height: 100vh;
+  border-bottom: 1px solid rgb(27, 27, 27);
+}
+#main > .head-part1 > div > header {
+  background-color: transparent;
+}
+
+#main > .head-part1 > div > .head-buttom > article {
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  margin-left: 2%;
+}
+@media screen and (max-width: 768px) {
+  #main > .head-part1 > div > .head-buttom > article {
+    width: 100%;
+  }
+}
+#main > .head-part1 > div > .head-buttom > article > h1 {
+  font-size: 4rem;
+  color: white;
+}
+#main > .head-part1 > div > .head-buttom > article > h1 > span {
+  color: #af2676;
+  text-transform: uppercase;
+  font-size: 4.2rem;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--px-theme);
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+}
+#main > .head-part1 > div > .head-buttom > article > h2 {
+  font-size: 2.5rem;
+  color: white;
+}
+#main > .head-part1 > div > .head-buttom > article > button {
+  width: 35%;
+  height: 10%;
+  background-color: #af2676;
+  font-size: 0.9rem;
+  color: white;
+  padding: 5% 5%;
+  margin-top: 5%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main > .head-part1 > div > .head-buttom > article > button :hover {
+  background-color:#75144d ;
+}
+#main > .head-part1 > div > .head-buttom > article > button > i {
+  margin-left: 4%;
+}
+#main > .head-part1 > div > .head-buttom > article > div {
+  display: flex;
+  align-items: center;
+  margin-top: 10%;
+}
+#main > .head-part1 > div > .head-buttom > article > div > span {
+  color: white;
+  margin-left: 10%;
+}
+#main > .head-part1 > div > .head-buttom > section {
+  width: 50%;
+}
+@media screen and (max-width: 768px) {
+  #main > .head-part1 > div > .head-buttom > section {
+    width: 100%;
+  }
+}
+#main > .head-part1 > div > .head-buttom > section > figure {
+  width: 80%;
+  height: 500px;
+}
+#main > .head-part1 > div > .head-buttom > section > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: top;
+     object-fit: top;
+}
+#main > .about-part2 {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  border-bottom: 1px solid rgb(27, 27, 27);
+}
+#main > .about-part2 > div > h2 {
+  font-size: 3vw;
+  color: white;
+}
+#main > .about-part2 > div > h3 {
+  font-size: 1rem;
+}
+#main > .about-part2 > buttom-about {
+  width: 100%;
+  display: flex;
+  margin-top: 100px;
+}
+#main > .about-part2 > buttom-about > figure {
+  width: 50%;
+}
+#main > .about-part2 > buttom-about > article > .box {
+  display: flex;
+  width: 70%;
+  height: 150px;
+  
+}
+#main > .about-part2 > buttom-about > article > .box > p {
+  color: white;
+}
+#main > .project-part3 > div {
+  font-family: 'Sriracha', cursive;
+}
+#main > .project-part3 > div > .card {
+  background-color: #100e24;
+  font-family: 'Sriracha', cursive;
+}
+#main > .project-part3 > div > .card > img {
+  height: 150px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 20px;
+  transition:0.6s ;
+  
+}
+#main > .project-part3 > div > .card > img:hover {
+  transform: scale(0.9);
+ 
+}
+#main > .project-part3 > div > .card > div > a {
+  color: dimgray;
+}
+#main > .project-part3 > div > .card > div > a:hover{
+  color: #941c62;
+}
+#main > .accordion-part4 {
+  width: 100%;
+  height: 100vh;
+}
+#main > .accordion-part4 > div > .left-part4{
+  font-family: 'Sriracha', cursive;
+}
+
+#main > .accordion-part4 > div > .right-part4 {
+  width: 50%;
+  background-color: #941c62;
+  font-family: 'Sriracha', cursive;
+  @media screen and (max-width:768px){
+    width:100%;
+    
+  }
+}
+#main > .accordion-part4 > div > .right-part4 > h2 {
+  font-size: 3rem;
+  
+}
+#main > .accordion-part4 > div > .right-part4 > form > label {
+  color: white;
+  font-family: 'Sriracha', cursive;
+}
+#main > .accordion-part4 > div > .right-part4 > form > input {
+ background-color: transparent;
+ font-family: 'Sriracha', cursive;
+ width: 100%;
+ height: 40px;
+ border-radius:10px ;
+ border: none;
+ outline: none;
+ /* border: 1px solid rgb(83, 5, 64); */
+ box-shadow: 2px 2px 3px #140f24;
+
+}
+#main > .accordion-part4 > div > .right-part4 > form > textarea {
+  background-color: transparent;
+  border-radius:10px ;
+  box-shadow: 2px 2px 3px #140f24;
+  outline: none;
+  border: none;
+  font-family: 'Sriracha', cursive;
+}
+#main > .accordion-part4 > div > .right-part4 > form > .btn {
+  width: 100%;
+  font-family: 'Sriracha', cursive;
+  background-color: #100e24;
+  color: white;
+  font-size: 1.3rem;
+  height: 50px;
+  border-radius: none;
+  
+}/*# sourceMappingURL=master.css.map */
